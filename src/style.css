@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global typography: use Poppins as the default font-family */
+html, body {
+    font-family: 'poppins', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Links inherit the body font; Tailwind utilities still apply. */
+a, a:link, a:visited {
+    font-family: inherit;
+}
